@@ -3,7 +3,7 @@ prefix = "test"
 vm_image_name = "nginx"
 vm_image_version = "1"
 
-vm_count = 1
+vm_count = 3
 
 labels = {
     "project" = "terraform-practice"
