@@ -1,0 +1,8 @@
+---
+
+- hosts: default
+  become: true
+  
+  roles:
+    - create_user
+    - nginx

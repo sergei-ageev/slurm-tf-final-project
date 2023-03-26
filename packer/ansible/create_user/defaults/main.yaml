@@ -1,0 +1,4 @@
+---
+USER: 'suser'
+SSH_PUBLIC_KEY: 'ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBAjdgVVQ/hj2HoD2a1fuvJP9/+kMrWBDVlIQpQq6HGRLaVyJO1+15++ftzm1UWFPaZXdo9TVof+5aB1DZXZ8BFU= skoba@home-pc'
+PASSWORD: '$6$y6BIPGfe6SLxCRVC$cH2auAr8b2OJt.xuyxgKHzyasPdmsXxvlKKsyjq3G1rgUv2XsB4E335LbvpdYvJ.8dkTBoW9gzivexqa2H5Bi.' # mkpasswd --method=sha-512

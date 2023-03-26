@@ -1,0 +1,15 @@
+---
+- name: 'create user'
+  ansible.builtin.user:
+    name: '{{ USER }}'
+    groups: 'wheel'
+    shell:
+    create_home: true
+    password: '{{ PASSWORD }}'
+    shell: '/bin/bash'
+
+- name: 'add public key for authentication'
+  ansible.builtin.lineinfile:
+    create: true
+    path: '/home/suser/.ssh/authorized_keys'
+    line: '{{ SSH_PUBLIC_KEY }}'
